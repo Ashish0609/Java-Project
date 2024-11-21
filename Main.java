@@ -6,7 +6,7 @@ public class Main {
     guessingNumberGame()
     {
         
-        Abc sc = new Abc(System.in);
+        
  
         // Generate the numbers
         int number = 1 + (int)(100
