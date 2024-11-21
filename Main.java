@@ -1,5 +1,3 @@
-import java.util.Scanner;
- 
 public class Main {
  
     // Function that implements the
@@ -7,8 +5,8 @@ public class Main {
     public static void
     guessingNumberGame()
     {
-        // Scanner Class
-        Scanner sc = new Scanner(System.in);
+        
+        Abc sc = new Abc(System.in);
  
         // Generate the numbers
         int number = 1 + (int)(100
@@ -70,7 +68,7 @@ public class Main {
     main(String arg[])
     {
  
-        // Function Call
+        
         guessingNumberGame();
     }
 }
